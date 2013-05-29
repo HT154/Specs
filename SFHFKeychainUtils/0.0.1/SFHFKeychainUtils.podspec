@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary  = 'SciFiHiFi Utilities for manipulating the keychain.'
   s.homepage = 'https://github.com/ldandersen/scifihifi-iphone/tree/master/security'
   s.author   = { 'Buzz Andersen' => 'buzz@scifihifi.com' }
-  s.source   = { :git => 'https://github.com/ldandersen/scifihifi-iphone.git', :commit => '6c4eb60ad577737a72097d0041f3ceb59e6c41ad' }
+  s.source   = { :git => 'https://github.com/HT154/scifihifi-iphone.git', :commit => 'e636e2db40d58d4288f37c407534bc31740df0ae' }
   s.source_files = 'security'
   s.framework = 'Security'
 
