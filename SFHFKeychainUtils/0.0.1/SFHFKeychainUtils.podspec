@@ -4,8 +4,10 @@ Pod::Spec.new do |s|
   s.summary  = 'SciFiHiFi Utilities for manipulating the keychain.'
   s.homepage = 'https://github.com/ldandersen/scifihifi-iphone/tree/master/security'
   s.author   = { 'Buzz Andersen' => 'buzz@scifihifi.com' }
-  s.source   = { :git => 'https://github.com/HT154/scifihifi-iphone.git', :commit => 'e636e2db40d58d4288f37c407534bc31740df0ae' }
-  s.source_files = 'security'
+  s.osx.source   = { :git => 'https://github.com/Pocket/Pocket-ObjC-SDK.git', :commit => 'd421134c1b1009148c1e9c9aa35bb42fbfe27e0a' }
+  s.ios.source   = { :git => 'https://github.com/ldandersen/scifihifi-iphone.git', :commit => '6c4eb60ad577737a72097d0041f3ceb59e6c41ad' }
+  s.osx.source_files = 'SDK/SFHFKeychainUtils.{h,m}'
+  s.ios.source_files = 'security'
   s.framework = 'Security'
 
   s.license  = {:type => 'MIT', :text => <<-TXT
