@@ -1,7 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'SFHFKeychainUtils'
   s.version  = '0.0.1'
-  s.platform = :ios
   s.summary  = 'SciFiHiFi Utilities for manipulating the keychain.'
   s.homepage = 'https://github.com/ldandersen/scifihifi-iphone/tree/master/security'
   s.author   = { 'Buzz Andersen' => 'buzz@scifihifi.com' }
